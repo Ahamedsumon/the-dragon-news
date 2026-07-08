@@ -1,7 +1,9 @@
+import SocialLogin from "../../components/SocialLogin/SocialLogin";
+
 const RightAside = () => {
   return (
     <div>
-      <h3>Right Aside</h3>
+      <SocialLogin></SocialLogin>
     </div>
   );
 };

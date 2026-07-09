@@ -4,7 +4,7 @@ import { FcGoogle } from "react-icons/fc";
 const SocialLogin = () => {
   return (
     <div>
-      <h2 className="font-bold mb-5">Login With</h2>
+      <h2 className="font-bold mb-6">Login With</h2>
       <div className="space-y-3">
         <button className="btn w-full btn-outline btn-secondary">
           <FcGoogle size={24}></FcGoogle>

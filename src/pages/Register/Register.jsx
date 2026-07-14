@@ -9,6 +9,7 @@ const Register = () => {
     const name = form.name.value;
     const photo = form.photo.value;
     const email = form.email.value;
+    console.log(name, photo);
     const password = form.password.value;
     createUser(email, password)
       .then((result) => {
